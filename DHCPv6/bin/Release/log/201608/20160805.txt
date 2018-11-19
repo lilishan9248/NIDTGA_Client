@@ -1,0 +1,2137 @@
+
+记录时间：2016-08-05 15:51:17,151 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 15:54:15,560 
+行号:[123] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-08-05 15:54:15,672 
+行号:[174] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-08-05 15:54:16,846 
+行号:[700] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：tasklist /svc /fo list & net stop vmnetdhcp &exit
+ 
+
+记录时间：2016-08-05 15:54:16,875 
+行号:[701] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>tasklist /svc /fo list & net stop vmnetdhcp &exit
+
+映像名称:     System Idle Process
+PID:          0
+服务    :     暂缺
+
+映像名称:     System
+PID:          4
+服务    :     暂缺
+
+映像名称:     smss.exe
+PID:          336
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          476
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          556
+服务    :     暂缺
+
+映像名称:     wininit.exe
+PID:          576
+服务    :     暂缺
+
+映像名称:     winlogon.exe
+PID:          616
+服务    :     暂缺
+
+映像名称:     services.exe
+PID:          676
+服务    :     暂缺
+
+映像名称:     lsass.exe
+PID:          684
+服务    :     KeyIso
+              SamSs
+              VaultSvc
+
+映像名称:     svchost.exe
+PID:          760
+服务    :     BrokerInfrastructure
+              DcomLaunch
+              LSM
+              PlugPlay
+              Power
+              SystemEventsBroker
+
+映像名称:     svchost.exe
+PID:          820
+服务    :     RpcEptMapper
+              RpcSs
+
+映像名称:     dwm.exe
+PID:          920
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          356
+服务    :     Appinfo
+              Browser
+              CertPropSvc
+              gpsvc
+              IKEEXT
+              iphlpsvc
+              LanmanServer
+              lfsvc
+              NetSetupSvc
+              ProfSvc
+              Schedule
+              SENS
+              SessionEnv
+              ShellHWDetection
+              Themes
+              UserManager
+              Winmgmt
+              wuauserv
+
+映像名称:     svchost.exe
+PID:          364
+服务    :     CryptSvc
+              Dnscache
+              LanmanWorkstation
+              NlaSvc
+              TermService
+
+映像名称:     svchost.exe
+PID:          552
+服务    :     AudioEndpointBuilder
+              DeviceAssociationService
+              hidserv
+              NcbService
+              Netman
+              PcaSvc
+              SysMain
+              TrkWks
+              UmRdpService
+              WdiSystemHost
+              WlanSvc
+              wudfsvc
+
+映像名称:     WUDFHost.exe
+PID:          1040
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          1108
+服务    :     Audiosrv
+              Dhcp
+              EventLog
+              lmhosts
+              Wcmsvc
+              wscsvc
+
+映像名称:     svchost.exe
+PID:          1112
+服务    :     EventSystem
+              FontCache
+              LicenseManager
+              netprofm
+              nsi
+              WdiServiceHost
+              WinHttpAutoProxySvc
+
+映像名称:     svchost.exe
+PID:          1124
+服务    :     SCardSvr
+              SSDPSRV
+              TimeBroker
+
+映像名称:     svchost.exe
+PID:          1132
+服务    :     BFE
+              CoreMessagingRegistrar
+              DPS
+              MpsSvc
+
+映像名称:     BDExpertSvc.exe
+PID:          1360
+服务    :     BDExpertSvc
+
+映像名称:     QQPCRTP.exe
+PID:          1412
+服务    :     QQPCRTP
+
+映像名称:     igfxCUIService.exe
+PID:          1732
+服务    :     igfxCUIService2.0.0.0
+
+映像名称:     RtkAudioService64.exe
+PID:          1996
+服务    :     RtkAudioService
+
+映像名称:     RAVBg64.exe
+PID:          1216
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          1324
+服务    :     暂缺
+
+映像名称:     spoolsv.exe
+PID:          2288
+服务    :     Spooler
+
+映像名称:     svchost.exe
+PID:          2420
+服务    :     PolicyAgent
+
+映像名称:     svchost.exe
+PID:          2476
+服务    :     AppHostSvc
+
+映像名称:     svchost.exe
+PID:          2592
+服务    :     DiagTrack
+
+映像名称:     AppleMobileDeviceService.exe
+PID:          2624
+服务    :     Apple Mobile Device Service
+
+映像名称:     mqsvc.exe
+PID:          2656
+服务    :     MSMQ
+
+映像名称:     eIDLauncher.exe
+PID:          2684
+服务    :     eIDLauncher
+
+映像名称:     dasHost.exe
+PID:          2812
+服务    :     暂缺
+
+映像名称:     sqlservr.exe
+PID:          2832
+服务    :     MSSQL$SQLEXPRESS
+
+映像名称:     svchost.exe
+PID:          2896
+服务    :     sina_live_deamon
+
+映像名称:     svchost.exe
+PID:          2908
+服务    :     stisvc
+
+映像名称:     QQProtect.exe
+PID:          2948
+服务    :     QPCore
+
+映像名称:     svchost.exe
+PID:          2992
+服务    :     StateRepository
+              tiledatamodelsvc
+
+映像名称:     OfficeClickToRun.exe
+PID:          3008
+服务    :     ClickToRunSvc
+
+映像名称:     sqlbrowser.exe
+PID:          3064
+服务    :     SQLBrowser
+
+映像名称:     vmnat.exe
+PID:          1944
+服务    :     VMware NAT Service
+
+映像名称:     vmnetdhcp.exe
+PID:          2196
+服务    :     VMnetDHCP
+
+映像名称:     svchost.exe
+PID:          2176
+服务    :     W3SVC
+              WAS
+
+映像名称:     svchost.exe
+PID:          2200
+服务    :     XLServicePlatform
+
+映像名称:     TenpayServer.exe
+PID:          2128
+服务    :     QQCertificateService
+
+映像名称:     vmware-usbarbitrator64.exe
+PID:          2216
+服务    :     VMUSBArbService
+
+映像名称:     vmware-authd.exe
+PID:          3220
+服务    :     VMAuthdService
+
+映像名称:     eIDDaemon.exe
+PID:          3624
+服务    :     暂缺
+
+映像名称:     ReportingServicesService.exe
+PID:          1632
+服务    :     ReportServer$MYTEST
+
+映像名称:     MsDtsSrvr.exe
+PID:          2736
+服务    :     MsDtsServer110
+
+映像名称:     sqlservr.exe
+PID:          3252
+服务    :     MSSQL$MYTEST
+
+映像名称:     msmdsrv.exe
+PID:          4212
+服务    :     MSOLAP$MYTEST
+
+映像名称:     unsecapp.exe
+PID:          4308
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4524
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4564
+服务    :     暂缺
+
+映像名称:     vmware-hostd.exe
+PID:          4304
+服务    :     VMwareHostd
+
+映像名称:     fdlauncher.exe
+PID:          4244
+服务    :     MSSQLFDLauncher$MYTEST
+
+映像名称:     fdhost.exe
+PID:          3184
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          568
+服务    :     暂缺
+
+映像名称:     taskhostw.exe
+PID:          6656
+服务    :     暂缺
+
+映像名称:     sihost.exe
+PID:          6708
+服务    :     暂缺
+
+映像名称:     ChsIME.exe
+PID:          6804
+服务    :     暂缺
+
+映像名称:     RuntimeBroker.exe
+PID:          6884
+服务    :     暂缺
+
+映像名称:     PresentationFontCache.exe
+PID:          7084
+服务    :     FontCache3.0.0.0
+
+映像名称:     svchost.exe
+PID:          7108
+服务    :     AppXSvc
+              ClipSVC
+
+映像名称:     eIDDisk.exe
+PID:          7148
+服务    :     暂缺
+
+映像名称:     explorer.exe
+PID:          6340
+服务    :     暂缺
+
+映像名称:     SkypeHost.exe
+PID:          1340
+服务    :     暂缺
+
+映像名称:     igfxEM.exe
+PID:          2336
+服务    :     暂缺
+
+映像名称:     QQPCTray.exe
+PID:          7208
+服务    :     暂缺
+
+映像名称:     ShellExperienceHost.exe
+PID:          7236
+服务    :     暂缺
+
+映像名称:     SearchUI.exe
+PID:          7844
+服务    :     暂缺
+
+映像名称:     SearchIndexer.exe
+PID:          8032
+服务    :     WSearch
+
+映像名称:     RAVBg64.exe
+PID:          4572
+服务    :     暂缺
+
+映像名称:     TSVNCache.exe
+PID:          8320
+服务    :     暂缺
+
+映像名称:     RtkNGUI64.exe
+PID:          8688
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          8720
+服务    :     暂缺
+
+映像名称:     TiltWheelMouse.exe
+PID:          8852
+服务    :     暂缺
+
+映像名称:     iusb3mon.exe
+PID:          8424
+服务    :     暂缺
+
+映像名称:     jusched.exe
+PID:          2632
+服务    :     暂缺
+
+映像名称:     QQPCNetFlow.exe
+PID:          8544
+服务    :     暂缺
+
+映像名称:     QQPCRealTimeSpeedup.exe
+PID:          9708
+服务    :     暂缺
+
+映像名称:     devenv.exe
+PID:          10160
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          9308
+服务    :     暂缺
+
+映像名称:     Microsoft.Alm.Shared.Remoting.RemoteContainer.dll
+PID:          4856
+服务    :     暂缺
+
+映像名称:     QQ.exe
+PID:          9800
+服务    :     暂缺
+
+映像名称:     TXPlatform.exe
+PID:          1880
+服务    :     暂缺
+
+映像名称:     GoogleUpdate.exe
+PID:          9040
+服务    :     暂缺
+
+映像名称:     VsEtwService.exe
+PID:          9340
+服务    :     VsEtwService120
+
+映像名称:     MSBuild.exe
+PID:          8504
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          3424
+服务    :     暂缺
+
+映像名称:     QQPYService.exe
+PID:          10560
+服务    :     暂缺
+
+映像名称:     audiodg.exe
+PID:          10984
+服务    :     暂缺
+
+映像名称:     DHCPv6.vshost.exe
+PID:          4840
+服务    :     暂缺
+
+映像名称:     msvsmon.exe
+PID:          10260
+服务    :     暂缺
+
+映像名称:     IntelliTrace.exe
+PID:          10872
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          10892
+服务    :     暂缺
+
+映像名称:     notepad.exe
+PID:          7860
+服务    :     暂缺
+
+映像名称:     dllhost.exe
+PID:          10612
+服务    :     暂缺
+
+映像名称:     backgroundTaskHost.exe
+PID:          10568
+服务    :     暂缺
+
+映像名称:     SearchProtocolHost.exe
+PID:          10692
+服务    :     暂缺
+
+映像名称:     SearchFilterHost.exe
+PID:          10432
+服务    :     暂缺
+
+映像名称:     SettingSyncHost.exe
+PID:          11764
+服务    :     暂缺
+
+映像名称:     sppsvc.exe
+PID:          12128
+服务    :     sppsvc
+
+映像名称:     SearchProtocolHost.exe
+PID:          12008
+服务    :     暂缺
+
+映像名称:     SppExtComObj.Exe
+PID:          11392
+服务    :     暂缺
+
+映像名称:     cmd.exe
+PID:          11552
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          12152
+服务    :     暂缺
+
+映像名称:     tasklist.exe
+PID:          9236
+服务    :     暂缺
+
+ 
+
+记录时间：2016-08-05 15:54:16,876 
+行号:[232] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DHCP Pid:1108
+ 
+
+记录时间：2016-08-05 15:54:17,623 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：taskkill -pid 1108 /f & net start Audiosrv & exit
+ 
+
+记录时间：2016-08-05 15:54:17,624 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>taskkill -pid 1108 /f & net start Audiosrv & exit
+
+ 
+
+记录时间：2016-08-05 15:54:18,092 
+行号:[170] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-08-05 15:54:18,093 
+行号:[63] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：1452130620
+ 
+
+记录时间：2016-08-05 15:54:18,245 
+行号:[331] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-08-05 15:54:18,343 
+行号:[303] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-08-05 15:54:18,343 
+行号:[305] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-08-05 15:54:20,191 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+ 
+
+记录时间：2016-08-05 15:54:20,192 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+
+ 
+
+记录时间：2016-08-05 15:54:20,338 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-08-05 15:54:20,339 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 11:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:4d59:416:779b:6bd2
+   临时 IPv6 地址. . . . . . . . . . : 2001:da8:266:f501:c03d:d334:10f0:ece0
+   本地链接 IPv6 地址. . . . . . . . : fe80::4d59:416:779b:6bd2%4
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.196
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%4
+                                       192.168.1.1
+
+隧道适配器 本地连接* 10:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:9d38:6abd:2c9a:2b8c:2cbb:85af
+   本地链接 IPv6 地址. . . . . . . . : fe80::2c9a:2b8c:2cbb:85af%19
+   默认网关. . . . . . . . . . . . . : 
+
+隧道适配器 isatap.lan:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : lan
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 15:54:20,419 
+行号:[608] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:700c:b87a:6aa3:b65f
+ 
+
+记录时间：2016-08-05 15:54:20,419 
+行号:[612] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-08-05 15:54:21,295 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set address WLAN 2001:da8:266:f501:700c:b87a:6aa3:b65f/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-08-05 15:54:21,296 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set address WLAN 2001:da8:266:f501:700c:b87a:6aa3:b65f/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+系统找不到指定的文件。
+
+
+系统找不到指定的文件。
+
+
+系统找不到指定的文件。
+
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 15:54:24,386 
+行号:[700] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：tasklist /svc /fo list & net stop vmnetdhcp &exit
+ 
+
+记录时间：2016-08-05 15:54:24,387 
+行号:[701] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>tasklist /svc /fo list & net stop vmnetdhcp &exit
+
+映像名称:     System Idle Process
+PID:          0
+服务    :     暂缺
+
+映像名称:     System
+PID:          4
+服务    :     暂缺
+
+映像名称:     smss.exe
+PID:          336
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          476
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          556
+服务    :     暂缺
+
+映像名称:     wininit.exe
+PID:          576
+服务    :     暂缺
+
+映像名称:     winlogon.exe
+PID:          616
+服务    :     暂缺
+
+映像名称:     services.exe
+PID:          676
+服务    :     暂缺
+
+映像名称:     lsass.exe
+PID:          684
+服务    :     KeyIso
+              SamSs
+              VaultSvc
+
+映像名称:     svchost.exe
+PID:          760
+服务    :     BrokerInfrastructure
+              DcomLaunch
+              LSM
+              PlugPlay
+              Power
+              SystemEventsBroker
+
+映像名称:     svchost.exe
+PID:          820
+服务    :     RpcEptMapper
+              RpcSs
+
+映像名称:     dwm.exe
+PID:          920
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          356
+服务    :     Appinfo
+              Browser
+              CertPropSvc
+              gpsvc
+              IKEEXT
+              iphlpsvc
+              LanmanServer
+              lfsvc
+              NetSetupSvc
+              ProfSvc
+              Schedule
+              SENS
+              SessionEnv
+              ShellHWDetection
+              Themes
+              UserManager
+              Winmgmt
+              wuauserv
+
+映像名称:     svchost.exe
+PID:          364
+服务    :     CryptSvc
+              Dnscache
+              LanmanWorkstation
+              NlaSvc
+              TermService
+
+映像名称:     svchost.exe
+PID:          552
+服务    :     AudioEndpointBuilder
+              DeviceAssociationService
+              hidserv
+              NcbService
+              Netman
+              PcaSvc
+              SysMain
+              TrkWks
+              UmRdpService
+              WdiSystemHost
+              WlanSvc
+              wudfsvc
+
+映像名称:     WUDFHost.exe
+PID:          1040
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          1108
+服务    :     Audiosrv
+              Dhcp
+              EventLog
+              lmhosts
+              Wcmsvc
+              wscsvc
+
+映像名称:     svchost.exe
+PID:          1112
+服务    :     EventSystem
+              FontCache
+              LicenseManager
+              netprofm
+              nsi
+              WdiServiceHost
+              WinHttpAutoProxySvc
+
+映像名称:     svchost.exe
+PID:          1124
+服务    :     SCardSvr
+              SSDPSRV
+              TimeBroker
+
+映像名称:     svchost.exe
+PID:          1132
+服务    :     BFE
+              CoreMessagingRegistrar
+              DPS
+              MpsSvc
+
+映像名称:     BDExpertSvc.exe
+PID:          1360
+服务    :     BDExpertSvc
+
+映像名称:     QQPCRTP.exe
+PID:          1412
+服务    :     QQPCRTP
+
+映像名称:     igfxCUIService.exe
+PID:          1732
+服务    :     igfxCUIService2.0.0.0
+
+映像名称:     RtkAudioService64.exe
+PID:          1996
+服务    :     RtkAudioService
+
+映像名称:     RAVBg64.exe
+PID:          1216
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          1324
+服务    :     暂缺
+
+映像名称:     spoolsv.exe
+PID:          2288
+服务    :     Spooler
+
+映像名称:     svchost.exe
+PID:          2420
+服务    :     PolicyAgent
+
+映像名称:     svchost.exe
+PID:          2476
+服务    :     AppHostSvc
+
+映像名称:     svchost.exe
+PID:          2592
+服务    :     DiagTrack
+
+映像名称:     AppleMobileDeviceService.exe
+PID:          2624
+服务    :     Apple Mobile Device Service
+
+映像名称:     mqsvc.exe
+PID:          2656
+服务    :     MSMQ
+
+映像名称:     eIDLauncher.exe
+PID:          2684
+服务    :     eIDLauncher
+
+映像名称:     dasHost.exe
+PID:          2812
+服务    :     暂缺
+
+映像名称:     sqlservr.exe
+PID:          2832
+服务    :     MSSQL$SQLEXPRESS
+
+映像名称:     svchost.exe
+PID:          2896
+服务    :     sina_live_deamon
+
+映像名称:     svchost.exe
+PID:          2908
+服务    :     stisvc
+
+映像名称:     QQProtect.exe
+PID:          2948
+服务    :     QPCore
+
+映像名称:     svchost.exe
+PID:          2992
+服务    :     StateRepository
+              tiledatamodelsvc
+
+映像名称:     OfficeClickToRun.exe
+PID:          3008
+服务    :     ClickToRunSvc
+
+映像名称:     sqlbrowser.exe
+PID:          3064
+服务    :     SQLBrowser
+
+映像名称:     vmnat.exe
+PID:          1944
+服务    :     VMware NAT Service
+
+映像名称:     vmnetdhcp.exe
+PID:          2196
+服务    :     VMnetDHCP
+
+映像名称:     svchost.exe
+PID:          2176
+服务    :     W3SVC
+              WAS
+
+映像名称:     svchost.exe
+PID:          2200
+服务    :     XLServicePlatform
+
+映像名称:     TenpayServer.exe
+PID:          2128
+服务    :     QQCertificateService
+
+映像名称:     vmware-usbarbitrator64.exe
+PID:          2216
+服务    :     VMUSBArbService
+
+映像名称:     vmware-authd.exe
+PID:          3220
+服务    :     VMAuthdService
+
+映像名称:     eIDDaemon.exe
+PID:          3624
+服务    :     暂缺
+
+映像名称:     ReportingServicesService.exe
+PID:          1632
+服务    :     ReportServer$MYTEST
+
+映像名称:     MsDtsSrvr.exe
+PID:          2736
+服务    :     MsDtsServer110
+
+映像名称:     sqlservr.exe
+PID:          3252
+服务    :     MSSQL$MYTEST
+
+映像名称:     msmdsrv.exe
+PID:          4212
+服务    :     MSOLAP$MYTEST
+
+映像名称:     unsecapp.exe
+PID:          4308
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4524
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4564
+服务    :     暂缺
+
+映像名称:     vmware-hostd.exe
+PID:          4304
+服务    :     VMwareHostd
+
+映像名称:     fdlauncher.exe
+PID:          4244
+服务    :     MSSQLFDLauncher$MYTEST
+
+映像名称:     fdhost.exe
+PID:          3184
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          568
+服务    :     暂缺
+
+映像名称:     taskhostw.exe
+PID:          6656
+服务    :     暂缺
+
+映像名称:     sihost.exe
+PID:          6708
+服务    :     暂缺
+
+映像名称:     ChsIME.exe
+PID:          6804
+服务    :     暂缺
+
+映像名称:     RuntimeBroker.exe
+PID:          6884
+服务    :     暂缺
+
+映像名称:     PresentationFontCache.exe
+PID:          7084
+服务    :     FontCache3.0.0.0
+
+映像名称:     svchost.exe
+PID:          7108
+服务    :     AppXSvc
+              ClipSVC
+
+映像名称:     eIDDisk.exe
+PID:          7148
+服务    :     暂缺
+
+映像名称:     explorer.exe
+PID:          6340
+服务    :     暂缺
+
+映像名称:     SkypeHost.exe
+PID:          1340
+服务    :     暂缺
+
+映像名称:     igfxEM.exe
+PID:          2336
+服务    :     暂缺
+
+映像名称:     QQPCTray.exe
+PID:          7208
+服务    :     暂缺
+
+映像名称:     ShellExperienceHost.exe
+PID:          7236
+服务    :     暂缺
+
+映像名称:     SearchUI.exe
+PID:          7844
+服务    :     暂缺
+
+映像名称:     SearchIndexer.exe
+PID:          8032
+服务    :     WSearch
+
+映像名称:     RAVBg64.exe
+PID:          4572
+服务    :     暂缺
+
+映像名称:     TSVNCache.exe
+PID:          8320
+服务    :     暂缺
+
+映像名称:     RtkNGUI64.exe
+PID:          8688
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          8720
+服务    :     暂缺
+
+映像名称:     TiltWheelMouse.exe
+PID:          8852
+服务    :     暂缺
+
+映像名称:     iusb3mon.exe
+PID:          8424
+服务    :     暂缺
+
+映像名称:     jusched.exe
+PID:          2632
+服务    :     暂缺
+
+映像名称:     QQPCNetFlow.exe
+PID:          8544
+服务    :     暂缺
+
+映像名称:     QQPCRealTimeSpeedup.exe
+PID:          9708
+服务    :     暂缺
+
+映像名称:     devenv.exe
+PID:          10160
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          9308
+服务    :     暂缺
+
+映像名称:     Microsoft.Alm.Shared.Remoting.RemoteContainer.dll
+PID:          4856
+服务    :     暂缺
+
+映像名称:     QQ.exe
+PID:          9800
+服务    :     暂缺
+
+映像名称:     TXPlatform.exe
+PID:          1880
+服务    :     暂缺
+
+映像名称:     GoogleUpdate.exe
+PID:          9040
+服务    :     暂缺
+
+映像名称:     VsEtwService.exe
+PID:          9340
+服务    :     VsEtwService120
+
+映像名称:     MSBuild.exe
+PID:          8504
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          3424
+服务    :     暂缺
+
+映像名称:     QQPYService.exe
+PID:          10560
+服务    :     暂缺
+
+映像名称:     audiodg.exe
+PID:          10984
+服务    :     暂缺
+
+映像名称:     DHCPv6.vshost.exe
+PID:          4840
+服务    :     暂缺
+
+映像名称:     msvsmon.exe
+PID:          10260
+服务    :     暂缺
+
+映像名称:     IntelliTrace.exe
+PID:          10872
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          10892
+服务    :     暂缺
+
+映像名称:     notepad.exe
+PID:          7860
+服务    :     暂缺
+
+映像名称:     dllhost.exe
+PID:          10612
+服务    :     暂缺
+
+映像名称:     SearchProtocolHost.exe
+PID:          10692
+服务    :     暂缺
+
+映像名称:     SearchFilterHost.exe
+PID:          10432
+服务    :     暂缺
+
+映像名称:     SettingSyncHost.exe
+PID:          11764
+服务    :     暂缺
+
+映像名称:     sppsvc.exe
+PID:          12128
+服务    :     sppsvc
+
+映像名称:     SearchProtocolHost.exe
+PID:          12008
+服务    :     暂缺
+
+映像名称:     SppExtComObj.Exe
+PID:          11392
+服务    :     暂缺
+
+映像名称:     wuapihost.exe
+PID:          9828
+服务    :     暂缺
+
+映像名称:     cmd.exe
+PID:          11980
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          10728
+服务    :     暂缺
+
+映像名称:     tasklist.exe
+PID:          12272
+服务    :     暂缺
+
+ 
+
+记录时间：2016-08-05 15:54:24,387 
+行号:[232] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DHCP Pid:1108
+ 
+
+记录时间：2016-08-05 15:54:25,027 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：taskkill -pid 1108 /f & net start Audiosrv & exit
+ 
+
+记录时间：2016-08-05 15:54:25,027 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>taskkill -pid 1108 /f & net start Audiosrv & exit
+
+ 
+
+记录时间：2016-08-05 15:54:25,151 
+行号:[108] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：断网Reply报文有效性：True
+ 
+
+记录时间：2016-08-05 15:54:26,068 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-08-05 15:54:26,087 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 11:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:4d59:416:779b:6bd2
+   临时 IPv6 地址. . . . . . . . . . : 2001:da8:266:f501:c03d:d334:10f0:ece0
+   本地链接 IPv6 地址. . . . . . . . : fe80::4d59:416:779b:6bd2%4
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.196
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%4
+                                       192.168.1.1
+
+隧道适配器 本地连接* 10:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:9d38:6abd:2c9a:2b8c:2cbb:85af
+   本地链接 IPv6 地址. . . . . . . . : fe80::2c9a:2b8c:2cbb:85af%19
+   默认网关. . . . . . . . . . . . . : 
+
+隧道适配器 isatap.lan:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : lan
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 15:54:26,867 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+ 
+
+记录时间：2016-08-05 15:54:26,868 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 11:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:4d59:416:779b:6bd2
+   临时 IPv6 地址. . . . . . . . . . : 2001:da8:266:f501:c03d:d334:10f0:ece0
+   本地链接 IPv6 地址. . . . . . . . : fe80::4d59:416:779b:6bd2%4
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.196
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%4
+                                       192.168.1.1
+
+隧道适配器 本地连接* 10:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:9d38:6abd:2c9a:2b8c:2cbb:85af
+   本地链接 IPv6 地址. . . . . . . . : fe80::2c9a:2b8c:2cbb:85af%19
+   默认网关. . . . . . . . . . . . . : 
+
+隧道适配器 isatap.lan:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : lan
+系统找不到指定的文件。
+
+
+系统找不到指定的文件。
+
+
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 15:54:27,287 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+ 
+
+记录时间：2016-08-05 15:54:27,288 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+
+ 
+
+记录时间：2016-08-05 15:54:54,173 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 15:54:56,348 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 15:55:00,949 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 15:55:11,825 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 15:55:19,100 
+行号:[738] 
+日志级别：ERROR 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：系统找不到指定的文件。
+ 
+
+记录时间：2016-08-05 16:00:58,081 
+行号:[123] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-08-05 16:00:58,178 
+行号:[174] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-08-05 16:00:58,904 
+行号:[700] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：tasklist /svc /fo list & net stop vmnetdhcp &exit
+ 
+
+记录时间：2016-08-05 16:00:58,905 
+行号:[701] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>tasklist /svc /fo list & net stop vmnetdhcp &exit
+
+映像名称:     System Idle Process
+PID:          0
+服务    :     暂缺
+
+映像名称:     System
+PID:          4
+服务    :     暂缺
+
+映像名称:     smss.exe
+PID:          336
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          476
+服务    :     暂缺
+
+映像名称:     csrss.exe
+PID:          556
+服务    :     暂缺
+
+映像名称:     wininit.exe
+PID:          576
+服务    :     暂缺
+
+映像名称:     winlogon.exe
+PID:          616
+服务    :     暂缺
+
+映像名称:     services.exe
+PID:          676
+服务    :     暂缺
+
+映像名称:     lsass.exe
+PID:          684
+服务    :     KeyIso
+              SamSs
+              VaultSvc
+
+映像名称:     svchost.exe
+PID:          760
+服务    :     BrokerInfrastructure
+              DcomLaunch
+              LSM
+              PlugPlay
+              Power
+              SystemEventsBroker
+
+映像名称:     svchost.exe
+PID:          820
+服务    :     RpcEptMapper
+              RpcSs
+
+映像名称:     dwm.exe
+PID:          920
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          356
+服务    :     Appinfo
+              Browser
+              CertPropSvc
+              gpsvc
+              IKEEXT
+              iphlpsvc
+              LanmanServer
+              lfsvc
+              ProfSvc
+              Schedule
+              SENS
+              SessionEnv
+              ShellHWDetection
+              Themes
+              UserManager
+              Winmgmt
+              wuauserv
+
+映像名称:     svchost.exe
+PID:          364
+服务    :     CryptSvc
+              Dnscache
+              LanmanWorkstation
+              NlaSvc
+              TermService
+
+映像名称:     svchost.exe
+PID:          552
+服务    :     AudioEndpointBuilder
+              DeviceAssociationService
+              hidserv
+              NcbService
+              Netman
+              PcaSvc
+              SysMain
+              TrkWks
+              UmRdpService
+              WdiSystemHost
+              WlanSvc
+              wudfsvc
+
+映像名称:     WUDFHost.exe
+PID:          1040
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          1108
+服务    :     Audiosrv
+              Dhcp
+              EventLog
+              lmhosts
+              Wcmsvc
+              wscsvc
+
+映像名称:     svchost.exe
+PID:          1112
+服务    :     EventSystem
+              FontCache
+              LicenseManager
+              netprofm
+              nsi
+              WdiServiceHost
+              WinHttpAutoProxySvc
+
+映像名称:     svchost.exe
+PID:          1124
+服务    :     SCardSvr
+              SSDPSRV
+              TimeBroker
+
+映像名称:     svchost.exe
+PID:          1132
+服务    :     BFE
+              CoreMessagingRegistrar
+              DPS
+              MpsSvc
+
+映像名称:     BDExpertSvc.exe
+PID:          1360
+服务    :     BDExpertSvc
+
+映像名称:     QQPCRTP.exe
+PID:          1412
+服务    :     QQPCRTP
+
+映像名称:     igfxCUIService.exe
+PID:          1732
+服务    :     igfxCUIService2.0.0.0
+
+映像名称:     RtkAudioService64.exe
+PID:          1996
+服务    :     RtkAudioService
+
+映像名称:     RAVBg64.exe
+PID:          1216
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          1324
+服务    :     暂缺
+
+映像名称:     spoolsv.exe
+PID:          2288
+服务    :     Spooler
+
+映像名称:     svchost.exe
+PID:          2420
+服务    :     PolicyAgent
+
+映像名称:     svchost.exe
+PID:          2476
+服务    :     AppHostSvc
+
+映像名称:     svchost.exe
+PID:          2592
+服务    :     DiagTrack
+
+映像名称:     AppleMobileDeviceService.exe
+PID:          2624
+服务    :     Apple Mobile Device Service
+
+映像名称:     mqsvc.exe
+PID:          2656
+服务    :     MSMQ
+
+映像名称:     eIDLauncher.exe
+PID:          2684
+服务    :     eIDLauncher
+
+映像名称:     dasHost.exe
+PID:          2812
+服务    :     暂缺
+
+映像名称:     sqlservr.exe
+PID:          2832
+服务    :     MSSQL$SQLEXPRESS
+
+映像名称:     svchost.exe
+PID:          2896
+服务    :     sina_live_deamon
+
+映像名称:     svchost.exe
+PID:          2908
+服务    :     stisvc
+
+映像名称:     QQProtect.exe
+PID:          2948
+服务    :     QPCore
+
+映像名称:     svchost.exe
+PID:          2992
+服务    :     StateRepository
+              tiledatamodelsvc
+
+映像名称:     OfficeClickToRun.exe
+PID:          3008
+服务    :     ClickToRunSvc
+
+映像名称:     sqlbrowser.exe
+PID:          3064
+服务    :     SQLBrowser
+
+映像名称:     vmnat.exe
+PID:          1944
+服务    :     VMware NAT Service
+
+映像名称:     vmnetdhcp.exe
+PID:          2196
+服务    :     VMnetDHCP
+
+映像名称:     svchost.exe
+PID:          2176
+服务    :     W3SVC
+              WAS
+
+映像名称:     svchost.exe
+PID:          2200
+服务    :     XLServicePlatform
+
+映像名称:     TenpayServer.exe
+PID:          2128
+服务    :     QQCertificateService
+
+映像名称:     vmware-usbarbitrator64.exe
+PID:          2216
+服务    :     VMUSBArbService
+
+映像名称:     vmware-authd.exe
+PID:          3220
+服务    :     VMAuthdService
+
+映像名称:     eIDDaemon.exe
+PID:          3624
+服务    :     暂缺
+
+映像名称:     ReportingServicesService.exe
+PID:          1632
+服务    :     ReportServer$MYTEST
+
+映像名称:     MsDtsSrvr.exe
+PID:          2736
+服务    :     MsDtsServer110
+
+映像名称:     sqlservr.exe
+PID:          3252
+服务    :     MSSQL$MYTEST
+
+映像名称:     msmdsrv.exe
+PID:          4212
+服务    :     MSOLAP$MYTEST
+
+映像名称:     unsecapp.exe
+PID:          4308
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4524
+服务    :     暂缺
+
+映像名称:     WmiPrvSE.exe
+PID:          4564
+服务    :     暂缺
+
+映像名称:     vmware-hostd.exe
+PID:          4304
+服务    :     VMwareHostd
+
+映像名称:     fdlauncher.exe
+PID:          4244
+服务    :     MSSQLFDLauncher$MYTEST
+
+映像名称:     fdhost.exe
+PID:          3184
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          568
+服务    :     暂缺
+
+映像名称:     taskhostw.exe
+PID:          6656
+服务    :     暂缺
+
+映像名称:     sihost.exe
+PID:          6708
+服务    :     暂缺
+
+映像名称:     ChsIME.exe
+PID:          6804
+服务    :     暂缺
+
+映像名称:     RuntimeBroker.exe
+PID:          6884
+服务    :     暂缺
+
+映像名称:     PresentationFontCache.exe
+PID:          7084
+服务    :     FontCache3.0.0.0
+
+映像名称:     svchost.exe
+PID:          7108
+服务    :     AppXSvc
+
+映像名称:     eIDDisk.exe
+PID:          7148
+服务    :     暂缺
+
+映像名称:     explorer.exe
+PID:          6340
+服务    :     暂缺
+
+映像名称:     SkypeHost.exe
+PID:          1340
+服务    :     暂缺
+
+映像名称:     igfxEM.exe
+PID:          2336
+服务    :     暂缺
+
+映像名称:     QQPCTray.exe
+PID:          7208
+服务    :     暂缺
+
+映像名称:     ShellExperienceHost.exe
+PID:          7236
+服务    :     暂缺
+
+映像名称:     SearchUI.exe
+PID:          7844
+服务    :     暂缺
+
+映像名称:     SearchIndexer.exe
+PID:          8032
+服务    :     WSearch
+
+映像名称:     RAVBg64.exe
+PID:          4572
+服务    :     暂缺
+
+映像名称:     TSVNCache.exe
+PID:          8320
+服务    :     暂缺
+
+映像名称:     RtkNGUI64.exe
+PID:          8688
+服务    :     暂缺
+
+映像名称:     RAVBg64.exe
+PID:          8720
+服务    :     暂缺
+
+映像名称:     TiltWheelMouse.exe
+PID:          8852
+服务    :     暂缺
+
+映像名称:     iusb3mon.exe
+PID:          8424
+服务    :     暂缺
+
+映像名称:     jusched.exe
+PID:          2632
+服务    :     暂缺
+
+映像名称:     QQPCNetFlow.exe
+PID:          8544
+服务    :     暂缺
+
+映像名称:     QQPCRealTimeSpeedup.exe
+PID:          9708
+服务    :     暂缺
+
+映像名称:     devenv.exe
+PID:          10160
+服务    :     暂缺
+
+映像名称:     svchost.exe
+PID:          9308
+服务    :     暂缺
+
+映像名称:     Microsoft.Alm.Shared.Remoting.RemoteContainer.dll
+PID:          4856
+服务    :     暂缺
+
+映像名称:     QQ.exe
+PID:          9800
+服务    :     暂缺
+
+映像名称:     TXPlatform.exe
+PID:          1880
+服务    :     暂缺
+
+映像名称:     GoogleUpdate.exe
+PID:          9040
+服务    :     暂缺
+
+映像名称:     VsEtwService.exe
+PID:          9340
+服务    :     VsEtwService120
+
+映像名称:     MSBuild.exe
+PID:          8504
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          3424
+服务    :     暂缺
+
+映像名称:     QQPYService.exe
+PID:          10560
+服务    :     暂缺
+
+映像名称:     audiodg.exe
+PID:          10984
+服务    :     暂缺
+
+映像名称:     notepad.exe
+PID:          7860
+服务    :     暂缺
+
+映像名称:     dllhost.exe
+PID:          10612
+服务    :     暂缺
+
+映像名称:     SettingSyncHost.exe
+PID:          11764
+服务    :     暂缺
+
+映像名称:     eIDPersonSuite.exe
+PID:          11712
+服务    :     暂缺
+
+映像名称:     DHCPv6.vshost.exe
+PID:          6476
+服务    :     暂缺
+
+映像名称:     msvsmon.exe
+PID:          11648
+服务    :     暂缺
+
+映像名称:     IntelliTrace.exe
+PID:          11076
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          11412
+服务    :     暂缺
+
+映像名称:     SearchProtocolHost.exe
+PID:          11896
+服务    :     暂缺
+
+映像名称:     SearchFilterHost.exe
+PID:          10392
+服务    :     暂缺
+
+映像名称:     taskeng.exe
+PID:          10784
+服务    :     暂缺
+
+映像名称:     OfficeC2RClient.exe
+PID:          10444
+服务    :     暂缺
+
+映像名称:     cmd.exe
+PID:          8196
+服务    :     暂缺
+
+映像名称:     conhost.exe
+PID:          10968
+服务    :     暂缺
+
+映像名称:     tasklist.exe
+PID:          12272
+服务    :     暂缺
+
+ 
+
+记录时间：2016-08-05 16:00:58,906 
+行号:[232] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DHCP Pid:1108
+ 
+
+记录时间：2016-08-05 16:00:59,566 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：taskkill -pid 1108 /f & net start Audiosrv & exit
+ 
+
+记录时间：2016-08-05 16:00:59,566 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>taskkill -pid 1108 /f & net start Audiosrv & exit
+
+ 
+
+记录时间：2016-08-05 16:00:59,717 
+行号:[170] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-08-05 16:00:59,718 
+行号:[63] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：1600679025
+ 
+
+记录时间：2016-08-05 16:01:00,110 
+行号:[331] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-08-05 16:01:00,209 
+行号:[303] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-08-05 16:01:00,209 
+行号:[305] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-08-05 16:01:01,893 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-08-05 16:01:01,894 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 11:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:4d59:416:779b:6bd2
+   临时 IPv6 地址. . . . . . . . . . : 2001:da8:266:f501:c03d:d334:10f0:ece0
+   本地链接 IPv6 地址. . . . . . . . : fe80::4d59:416:779b:6bd2%4
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.196
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%4
+                                       192.168.1.1
+
+隧道适配器 本地连接* 10:
+
+   连接特定的 DNS 后缀 . . . . . . . : 
+   IPv6 地址 . . . . . . . . . . . . : 2001:0:9d38:6abd:2c9a:2b8c:2cbb:85af
+   本地链接 IPv6 地址. . . . . . . . : fe80::2c9a:2b8c:2cbb:85af%19
+   默认网关. . . . . . . . . . . . . : 
+
+隧道适配器 isatap.lan:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : lan
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 16:01:01,951 
+行号:[608] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:f46a:d42b:ca53:794b
+ 
+
+记录时间：2016-08-05 16:01:01,952 
+行号:[612] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-08-05 16:01:02,604 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set address WLAN 2001:da8:266:f501:f46a:d42b:ca53:794b/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-08-05 16:01:02,604 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:4d59:416:779b:6bd2&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:c03d:d334:10f0:ece0&netsh interface ipv6 set address WLAN 2001:da8:266:f501:f46a:d42b:ca53:794b/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+系统找不到指定的文件。
+
+
+系统找不到指定的文件。
+
+
+系统找不到指定的文件。
+
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+请求的操作需要提升(作为管理员运行)。
+
+
+ 
+
+记录时间：2016-08-05 16:01:02,958 
+行号:[682] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+ 
+
+记录时间：2016-08-05 16:01:02,959 
+行号:[683] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+E:\工作文件\赛尔网络\NIDTGA\NIDTGA\DHCPv6\DHCPv6\bin\Release>net start dhcp & net start EventLog & net start lmhosts & net start Wcmsvc & net start wscsvc & net start vmnetdhcp & exit
+
+ 

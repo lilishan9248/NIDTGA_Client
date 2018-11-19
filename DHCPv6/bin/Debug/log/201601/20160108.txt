@@ -1,0 +1,1001 @@
+
+记录时间：2016-01-08 13:52:26,328 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:52:27,934 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:52:39,087 
+行号:[161] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Solicit请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:52:45,158 
+行号:[161] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Solicit请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:52:45,649 
+行号:[169] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:52:45,651 
+行号:[62] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：1520831395
+ 
+
+记录时间：2016-01-08 13:52:45,952 
+行号:[330] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:52:46,015 
+行号:[251] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:52:46,016 
+行号:[253] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:52:56,055 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:52:56,057 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:52:56,109 
+行号:[386] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:9ada:7ab6:14b2:3b35
+ 
+
+记录时间：2016-01-08 13:52:56,109 
+行号:[388] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-01-08 13:52:57,824 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 set address WLAN 2001:da8:266:f501:9ada:7ab6:14b2:3b35/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:52:57,824 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 set address WLAN 2001:da8:266:f501:9ada:7ab6:14b2:3b35/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+确定。
+
+确定。
+
+
+
+
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:54:14,332 
+行号:[107] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：断网Reply报文有效性：True
+ 
+
+记录时间：2016-01-08 13:54:16,354 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:54:16,355 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:9ada:7ab6:14b2:3b35
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:54:17,078 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:9ada:7ab6:14b2:3b35&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+ 
+
+记录时间：2016-01-08 13:54:17,079 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:9ada:7ab6:14b2:3b35&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:9ada:7ab6:14b2:3b35
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.1.1
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:54:54,377 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:54:54,425 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:55:00,541 
+行号:[161] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Solicit请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:55:06,560 
+行号:[161] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Solicit请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:55:12,602 
+行号:[161] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Solicit请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:55:14,913 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:55:14,959 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:55:15,552 
+行号:[169] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:55:15,553 
+行号:[62] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：697846518
+ 
+
+记录时间：2016-01-08 13:55:21,643 
+行号:[323] 
+日志级别：ERROR 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Request请求:由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+ 
+
+记录时间：2016-01-08 13:55:21,651 
+行号:[330] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:55:21,700 
+行号:[251] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:55:21,700 
+行号:[253] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:55:22,069 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:55:22,069 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:d12d:a1d:b48a:b6b
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:55:22,102 
+行号:[386] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:3e76:a324:8f69:8323
+ 
+
+记录时间：2016-01-08 13:55:22,102 
+行号:[388] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-01-08 13:55:23,159 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:d12d:a1d:b48a:b6b&netsh interface ipv6 set address WLAN 2001:da8:266:f501:3e76:a324:8f69:8323/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:55:23,159 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:d12d:a1d:b48a:b6b&netsh interface ipv6 set address WLAN 2001:da8:266:f501:3e76:a324:8f69:8323/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+确定。
+
+确定。
+
+
+
+系统找不到指定的文件。
+
+
+
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:55:38,783 
+行号:[107] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：断网Reply报文有效性：True
+ 
+
+记录时间：2016-01-08 13:55:39,116 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:55:39,117 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:3e76:a324:8f69:8323
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:55:39,503 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:3e76:a324:8f69:8323&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+ 
+
+记录时间：2016-01-08 13:55:39,504 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:3e76:a324:8f69:8323&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:3e76:a324:8f69:8323
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.1.1
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:57:09,169 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:57:09,226 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:57:09,645 
+行号:[169] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:57:09,645 
+行号:[62] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：1454687020
+ 
+
+记录时间：2016-01-08 13:57:09,711 
+行号:[330] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:57:09,763 
+行号:[251] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:57:09,763 
+行号:[253] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:57:10,086 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:57:10,087 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:d12d:a1d:b48a:b6b
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:57:10,117 
+行号:[386] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:42aa:239e:30c7:6970
+ 
+
+记录时间：2016-01-08 13:57:10,117 
+行号:[388] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-01-08 13:57:11,318 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:d12d:a1d:b48a:b6b&netsh interface ipv6 set address WLAN 2001:da8:266:f501:42aa:239e:30c7:6970/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:57:11,319 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:d12d:a1d:b48a:b6b&netsh interface ipv6 set address WLAN 2001:da8:266:f501:42aa:239e:30c7:6970/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+确定。
+
+确定。
+
+
+
+系统找不到指定的文件。
+
+
+
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:57:24,391 
+行号:[107] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：断网Reply报文有效性：True
+ 
+
+记录时间：2016-01-08 13:57:24,847 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:57:24,848 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:42aa:239e:30c7:6970
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:57:25,270 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:42aa:239e:30c7:6970&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+ 
+
+记录时间：2016-01-08 13:57:25,271 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:42aa:239e:30c7:6970&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:42aa:239e:30c7:6970
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.1.1
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:57:36,727 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:57:36,775 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:57:36,895 
+行号:[169] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:57:36,895 
+行号:[62] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：1832064874
+ 
+
+记录时间：2016-01-08 13:57:36,965 
+行号:[330] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:57:37,015 
+行号:[251] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：
+ 
+
+记录时间：2016-01-08 13:57:37,057 
+行号:[253] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:57:37,136 
+行号:[386] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:416a:7c94:aefe:fc3
+ 
+
+记录时间：2016-01-08 13:57:37,137 
+行号:[388] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-01-08 13:57:37,797 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 set address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:57:37,797 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 set address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+确定。
+
+确定。
+
+
+
+
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:58:08,386 
+行号:[116] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网络类型0、无网络可用，1、有线网络，2、无线网络，3、两个网络： 2
+ 
+
+记录时间：2016-01-08 13:58:08,646 
+行号:[168] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网络：WLAN
+ 
+
+记录时间：2016-01-08 13:58:09,399 
+行号:[169] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Advertise报文有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:58:09,473 
+行号:[62] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：随机数：699623862
+ 
+
+记录时间：2016-01-08 13:58:09,591 
+行号:[330] 
+日志级别：DEBUG 
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：Reply报文的有效性1、成功 2、失败 3、无效：1
+ 
+
+记录时间：2016-01-08 13:58:09,643 
+行号:[251] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：当前网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:58:09,645 
+行号:[253] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：最终网关：fe80::3a22:d6ff:fe26:e5f0
+ 
+
+记录时间：2016-01-08 13:58:10,040 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:58:10,041 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:416a:7c94:aefe:fc3
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:58:10,079 
+行号:[386] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的IP：2001:da8:266:f501:416a:7c94:aefe:fc3
+ 
+
+记录时间：2016-01-08 13:58:10,080 
+行号:[388] 
+日志级别：INFO  
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：获取的DNS：2001:470:20:0:0:0:0:2
+ 
+
+记录时间：2016-01-08 13:58:11,002 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3&netsh interface ipv6 set address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:58:11,003 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>netsh interface ipv6 set privacy state=disable&netsh interface ipv6 set interface WLAN routerdiscovery=disable&netsh interface ipv6 add address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f200:bd3a:9ca1:9c6b:ce72&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3&netsh interface ipv6 set address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3/64 store=active&netsh interface ipv6 set dnsservers WLAN static 2001:470:20:0:0:0:0:2 primary no&netsh interface ipv6 add route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+确定。
+
+确定。
+
+
+
+
+
+
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:58:24,399 
+行号:[107] 
+日志级别：INFO  
+出错类：DHCPv6.SocketHelper property: [(null)] - 
+错误描述：断网Reply报文有效性：True
+ 
+
+记录时间：2016-01-08 13:58:24,800 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+ 
+
+记录时间：2016-01-08 13:58:24,801 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete route ::/0 WLAN fe80::3a22:d6ff:fe26:e5f0&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:416a:7c94:aefe:fc3
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : fe80::3a22:d6ff:fe26:e5f0%8
+                                       192.168.1.1
+确定。
+
+
+ 
+
+记录时间：2016-01-08 13:58:25,232 
+行号:[460] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS命令：ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+ 
+
+记录时间：2016-01-08 13:58:25,232 
+行号:[461] 
+日志级别：DEBUG 
+出错类：DHCPv6.Form1 property: [(null)] - 
+错误描述：DOS执行结果：Microsoft Windows [版本 10.0.10586]
+(c) 2015 Microsoft Corporation。保留所有权利。
+
+F:\mycode\NIDTGA\DHCPv6\DHCPv6\bin\Debug>ipconfig&netsh interface ipv6 delete address WLAN 2001:da8:266:f501:416a:7c94:aefe:fc3&netsh interface ipv6 set interface WLAN routerdiscovery=enable&exit
+
+Windows IP 配置
+
+
+无线局域网适配器 本地连接* 2:
+
+   媒体状态  . . . . . . . . . . . . : 媒体已断开连接
+   连接特定的 DNS 后缀 . . . . . . . : 
+
+无线局域网适配器 WLAN:
+
+   连接特定的 DNS 后缀 . . . . . . . : lan
+   IPv6 地址 . . . . . . . . . . . . : 2001:da8:266:f501:416a:7c94:aefe:fc3
+   本地链接 IPv6 地址. . . . . . . . : fe80::d12d:a1d:b48a:b6b%8
+   IPv4 地址 . . . . . . . . . . . . : 192.168.1.161
+   子网掩码  . . . . . . . . . . . . : 255.255.255.0
+   默认网关. . . . . . . . . . . . . : 192.168.1.1
+
+确定。
+
+
+ 
